@@ -2,9 +2,13 @@ Aventura Aérea 🚀
 
 Bem-vindo ao Aventura Aérea! Um jogo de desvio de obstáculos inspirado no clássico Flappy Bird, mas com uma temática espacial. Desenvolvido em Python com a biblioteca Pygame, este projeto é perfeito para entusiastas de jogos casuais e estudantes de programação.
 
+
+
 📜 Sobre o Jogo
 
 O objetivo é simples: guie sua nave através de um campo de asteroides perigoso pelo maior tempo possível. A cada par de asteroides que você ultrapassa, sua pontuação aumenta. Mas cuidado, qualquer colisão resultará no fim da partida!
+
+
 
 ✨ Funcionalidades
 
@@ -15,6 +19,8 @@ Placar de Sessão: O jogo mantém um placar com as três melhores pontuações d
 Controles Simples: Basta usar a tecla ESPAÇO ou SETA PARA CIMA para impulsionar a nave.
 
 Compilado e Pronto para Jogar: Um arquivo executável (.exe) está disponível para jogar instantaneamente no Windows, sem necessidade de instalação.
+
+
 
 🕹️ Como Jogar
 
@@ -43,17 +49,6 @@ A biblioteca pygame instalada. Se não tiver, abra um terminal (CMD ou PowerShel
 pip install pygame
 
 
-Clone ou baixe este repositório:
-
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-cd seu-repositorio
-
-
-Execute o jogo:
-No terminal, dentro da pasta do projeto, execute o comando:
-
-python FlappyBird.py
-
 
 🛠️ Como Compilar seu Próprio Executável
 
@@ -80,19 +75,30 @@ pyinstaller --onefile --windowed --add-data "imgs;imgs" "FlappyBird.py"
 Encontre seu arquivo:
 Após o processo, seu novo executável estará na pasta dist que foi criada.
 
+
+
 📂 Estrutura do Projeto
 
-.
+
 ├── FlappyBird.py       # O código-fonte principal do jogo.
+
 ├── FlappyBird.exe      # O arquivo executável para Windows.
+
 ├── imgs/               # Pasta contendo todos os recursos gráficos.
+
 │   ├── base.png
+
 │   ├── bg.png
+
 │   ├── bird1.png
+
 │   ├── bird2.png
+
 │   ├── bird3.png
+
 │   └── pipe.png
+
 └── README.md           # Este arquivo.
 
 
-Desenvolvido com ❤️ por [Seu Nome/Nick]. Sinta-se à vontade para contribuir, sugerir melhorias ou simplesmente se divertir!
+Desenvolvido com ❤️ por Darlan Monteiro. Sinta-se à vontade para contribuir, sugerir melhorias ou simplesmente se divertir!
